@@ -3,11 +3,11 @@ MÔ TẢ:
 Xây dựng mô hình web MVC bằng flask, kết nối với cơ sở dữ liệu SQL Server và kết nối với phần View bằng ngôn ngữ HTML.
 1. Trang web qua các giai đoạn sau khi người dùng tìm kiếm:
   - Hệ thống nhận nội dụng từ người dùng.
-  - Hệ thống qua bước kiểm tra trong hệ cơ sở dữ liệu để tìm ra những bài hát có tiêu đề có chứa nội dung đó.
-  - Hệ thống trả về danh sách bài hát đã tìm được.
+  - Hệ thống qua bước kiểm tra trong hệ cơ sở dữ liệu để tìm ra những phim có tiêu đề có chứa nội dung đó.
+  - Hệ thống trả về danh sách phim đã tìm được.
   - Nếu không tìm được, câu được người dùng nhập đi qua bước chuẩn hóa tiếng Việt và loại bỏ những từ stopword.
   - Đoạn văn bản đó được chuyển thành vector và qua mô hình CNN để được dự đoán.
-  - Hệ thống trả về danh sách bài hát theo chủ đề được dự đoán.
+  - Hệ thống trả về danh sách phim theo chủ đề được dự đoán.
 2. Data:
  Có 3 nhãn tương ứng với 3 tâm trạng: bình thường, tích cực, tiêu cực
   - Bình thường: 0
